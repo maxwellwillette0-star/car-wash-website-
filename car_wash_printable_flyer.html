@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Car Wash Flyer</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #0ea5e9, #38bdf8, #60a5fa, #3b82f6);
+  }
+  .flyer {
+    width: 8.5in;
+    height: 11in;
+    padding: 40px;
+    text-align: center;
+    background: linear-gradient(135deg, #ffffffcc, #e0f7ffcc);
+    border: 2px solid #0c4a6e;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  }
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #022c43;
+  }
+  h2 {
+    font-size: 1.8rem;
+    margin: 15px 0;
+    color: #0c4a6e;
+  }
+  p {
+    font-size: 1.2rem;
+    margin: 5px 0;
+  }
+  .qr {
+    margin-top: 30px;
+  }
+  .qr img {
+    width: 150px;
+    border: 2px solid #022c43;
+    border-radius: 8px;
+  }
+</style>
+</head>
+<body>
+<div class="flyer">
+  <h1>Premium Car Wash Service</h1>
+  <p>Make your car shine today!</p>
+
+  <h2>Exterior Wash - $30</h2>
+  <p>Fast, thorough, and spotless</p>
+
+  <h2>Full Wash (Interior + Exterior) - $50</h2>
+  <p>Complete clean inside and out</p>
+
+  <div class="qr">
+    <p>Scan to Book!</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://your-online-link.com" alt="QR Code">
+  </div>
+</div>
+</body>
+</html>
